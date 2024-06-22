@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #cae9e6;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 300;
+    border-bottom: 6px solid rgb(213, 124, 225);
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .avatar {
+        width: 100px;
+    }
+
+    .card {
+        padding: 10px;
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+    }
+}
